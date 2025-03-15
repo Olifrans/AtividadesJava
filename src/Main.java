@@ -86,14 +86,38 @@ public class Main {
         System.out.println("A área do retângulo é: " + area);
 
 
-
-
         //Trabalhando com Strings e dados multivalorados
+        System.out.println();
+        System.out.println("---------------------------------------------------------------------");
         String nome = "Francisco";
         int idade = 46;
         double peso = 72.7;
         System.out.println("Olá meu nome é " + nome + " ,minha idade é "+idade+ " e o meu peso é " +peso);
 
 
+        //Verificando Par ou Ímpar
+        System.out.println();
+        System.out.println("---------------------------------------------------------------------");
+
+        int num = 117;
+        if (num % 2 ==0){
+            System.out.println("O número " + num + " é par.");
+        }else {
+            System.out.println("O número " + num + " é ímpar.");
+        }
+
+        //DeclarandoVariaveis
+        System.out.println();
+        System.out.println("---------------------------------------------------------------------");
+        int novaIdade = 25;
+        double NovaAltura = 1.75;
+        char inicial = 'J';
+        boolean estudante = true;
+
+        System.out.println("Sua idade é " + novaIdade);
+        System.out.println("Sua altura é " + NovaAltura);
+        System.out.println("A inicial do seu nome é '" + inicial + "'");
+        System.out.println("Você é estudante? " + estudante);
+
     }
-    }
+}
