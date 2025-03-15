@@ -19,5 +19,14 @@ public class Main {
         System.out.println("A média do número float é: "+ media02);
         System.out.println("A média do número long é: "+ media03);
 
+        System.out.println();
+        System.out.println("---------------------------------------------------------------------");
+
+
+       //Declaração de Long
+        long distancia = 149600000L;
+        System.out.println("A distância da Terra ao Sol é: " + distancia + " km.");
+
+
     }
 }
