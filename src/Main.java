@@ -55,6 +55,25 @@ public class Main {
         System.out.println("O valor Unicode de '" + letra4 + "' é: " + valorUnicode4);
 
 
+
+
+        //Tipos binário
+        System.out.println();
+        System.out.println("---------------------------------------------------------------------");
+        char letrad = 'A';
+
+        // Obter o valor Unicode do caractere
+        int valorUnicodef = letra;
+
+        // Converter o valor Unicode para binário
+        String valorBinario = Integer.toBinaryString(valorUnicode);
+
+        // Exibir o valor Decimal, Binário e Unicode
+        System.out.println("O valor Decimal de '" + letrad + "' é: " + valorUnicode);
+        System.out.println("O valor Binário de '" + letrad + "' é: " + valorBinario);
+        System.out.println("O valor Unicode de '" + letrad + "' é: \\u" + String.format("%04X", valorUnicodef));
+
+
         //Tipos Booleanos
         System.out.println();
         System.out.println("---------------------------------------------------------------------");
@@ -118,6 +137,102 @@ public class Main {
         System.out.println("Sua altura é " + NovaAltura);
         System.out.println("A inicial do seu nome é '" + inicial + "'");
         System.out.println("Você é estudante? " + estudante);
+
+
+
+//        //  Pré-incremento e Pós-incremento**
+//        System.out.println();
+//        System.out.println("---------------------------------------------------------------------");
+//        int a = 5;
+//        int b = a-- ;
+//        int c = --a;
+//
+//        System.out.println("Valor de a: " + a);
+//        System.out.println("Valor de b: " + b);
+//        System.out.println("Valor de c: " + c);
+
+//
+//         int count=15;
+//         int a, b, c, d;
+//         a = count++;
+//         b = count;
+//         c = ++count;
+//         d = count;
+//
+//         System.out.println(a + ", " + b + ", " + c + ", " + d);
+//
+//
+////
+//        // Operadores Abreviados
+//        System.out.println();
+//        System.out.println("---------------------------------------------------------------------");
+//
+//        int valor = 20;
+//
+//        valor = valor + 5;
+//        valor = valor * 2;
+//        valor = valor - 3;
+//        valor = valor / 2;
+//        valor = valor % 4;
+//        System.out.println("Resultado final: " + valor);
+
+
+
+        int senai = 10;
+        int senai1 = 210;
+        System.out.println("O valor da \n"+"soma esta errado: " +senai+senai1);
+        System.out.println("O valor da \"soma é\": " +(senai+senai1));
+
+
+        System.out.println("O gato fez \"Miau!\" para mim.");
+
+
+        System.out.println();
+        System.out.println();
+        System.out.println();
+
+
+        System.out.println("Esta é a primeira linha."
+                + "Esta ainda é a primeira linha."
+                + "É apenas uma linha muito longa "
+                + "e eu não posso ver isso tudo no NetBeans."
+                + "\n" + "Esta é a segunda linha."
+                + "\n" + "Esta é a terceira linha.");
+
+
+
+
+
+
+        double x = 9/2; //Deve ser 4.5
+        System.out.println(x); //imprime 4.0
+
+
+
+
+//        int myInt;
+//        double myPercent = 51.9;
+//        myInt = (int)myPrecent; // O número é "cortado"
+
+
+
+        int myInt;
+        long myLong = 123987654321L;
+        myInt = (int)myLong; //O número é "cortado"
+
+
+
+
+        int ageYears = 46;
+        int ageDays = ageYears * 365;
+        long ageSeconds = ageYears * 365 * 24L * 60 * 60;
+        System.out.println("Você já tem " + ageDays
+                + " dias de idade.");
+
+        System.out.println("Você já tem " + ageSeconds
+                + " segundos de idade.");
+
+
 
     }
 }
